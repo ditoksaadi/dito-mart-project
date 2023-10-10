@@ -1,0 +1,105 @@
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 10px 0 10px;
+  line-height: 120%;
+}
+p {
+  margin: 0%;
+  line-height: 180%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai-center {
+  align-items: center;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.nave-space {
+  margin: 0 1.5%;
+}
+.nav-brand {
+  font-family: "Dancing Script", cursive;
+  h1 {
+    a {
+      text-decoration: none;
+      color: rgb(9, 24, 243);
+    }
+  }
+}
+.nav-contact {
+  a {
+    text-decoration: none;
+  }
+}
+.btn {
+  background: black;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: white;
+}
+
+//making grid system
+
+@for $i from 1 through 12 {
+  .col#{$i} {
+    width: (100%/ (12 / $i)) - 3%;
+    margin: 1.5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  @for $i from 1 through 12 {
+    .col#{$i} {
+      width: 100%;
+    }
+  }
+}
+.img-responsive {
+  width: 100%;
+}
+.img-radius {
+  border-radius: 20px;
+}
+.icon64 {
+  width: 48px;
+  height: 50px;
+}
+.icon65 {
+  width: 100%;
+}
+//spacer
+.spacer2 {
+  padding: 5%;
+}
+
+//product
+.product h3 {
+  margin: 5px 0;
+}
+
+//franchise
+.franchise {
+  .fc-desc {
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+    }
+  }
+}

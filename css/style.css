@@ -1,0 +1,188 @@
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 10px 0 10px;
+  line-height: 120%;
+}
+
+p {
+  margin: 0%;
+  line-height: 180%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.nave-space {
+  margin: 0 1.5%;
+}
+
+.nav-brand {
+  font-family: "Dancing Script", cursive;
+}
+.nav-brand h1 a {
+  text-decoration: none;
+  color: rgb(9, 24, 243);
+}
+
+.nav-contact a {
+  text-decoration: none;
+}
+
+.btn {
+  background: black;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: white;
+}
+
+.col1 {
+  width: 5.3333333333%;
+  margin: 1.5%;
+}
+
+.col2 {
+  width: 13.6666666667%;
+  margin: 1.5%;
+}
+
+.col3 {
+  width: 22%;
+  margin: 1.5%;
+}
+
+.col4 {
+  width: 30.3333333333%;
+  margin: 1.5%;
+}
+
+.col5 {
+  width: 38.6666666667%;
+  margin: 1.5%;
+}
+
+.col6 {
+  width: 47%;
+  margin: 1.5%;
+}
+
+.col7 {
+  width: 55.3333333333%;
+  margin: 1.5%;
+}
+
+.col8 {
+  width: 63.6666666667%;
+  margin: 1.5%;
+}
+
+.col9 {
+  width: 72%;
+  margin: 1.5%;
+}
+
+.col10 {
+  width: 80.3333333333%;
+  margin: 1.5%;
+}
+
+.col11 {
+  width: 88.6666666667%;
+  margin: 1.5%;
+}
+
+.col12 {
+  width: 97%;
+  margin: 1.5%;
+}
+
+@media screen and (max-width: 480px) {
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .col7 {
+    width: 100%;
+  }
+  .col8 {
+    width: 100%;
+  }
+  .col9 {
+    width: 100%;
+  }
+  .col10 {
+    width: 100%;
+  }
+  .col11 {
+    width: 100%;
+  }
+  .col12 {
+    width: 100%;
+  }
+}
+.img-responsive {
+  width: 100%;
+}
+
+.img-radius {
+  border-radius: 20px;
+}
+
+.icon64 {
+  width: 48px;
+  height: 50px;
+}
+
+.icon65 {
+  width: 100%;
+}
+
+.spacer2 {
+  padding: 5%;
+}
+
+.product h3 {
+  margin: 5px 0;
+}
+
+.franchise .fc-desc .btn {
+  display: inline-block;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
