@@ -1,3 +1,6 @@
+body {
+  margin: 0%;
+}
 .container {
   max-width: 1200px;
   width: 90%;
@@ -49,10 +52,10 @@ p {
   }
 }
 .btn {
-  background: black;
+  background: rgb(51, 250, 47);
   border-radius: 20px;
   padding: 10px 40px;
-  color: white;
+  color: rgb(12, 12, 12);
 }
 
 //making grid system
@@ -96,10 +99,16 @@ p {
 
 //franchise
 .franchise {
+  background: rgb(87, 234, 202);
   .fc-desc {
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
     .btn {
       display: inline-block;
       text-decoration: none;
+      margin-top: 20px;
     }
   }
 }

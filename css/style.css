@@ -1,3 +1,7 @@
+body {
+  margin: 0%;
+}
+
 .container {
   max-width: 1200px;
   width: 90%;
@@ -53,10 +57,10 @@ p {
 }
 
 .btn {
-  background: black;
+  background: rgb(51, 250, 47);
   border-radius: 20px;
   padding: 10px 40px;
-  color: white;
+  color: rgb(12, 12, 12);
 }
 
 .col1 {
@@ -182,7 +186,15 @@ p {
   margin: 5px 0;
 }
 
+.franchise {
+  background: rgb(87, 234, 202);
+}
+.franchise .fc-desc h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
 .franchise .fc-desc .btn {
   display: inline-block;
   text-decoration: none;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
